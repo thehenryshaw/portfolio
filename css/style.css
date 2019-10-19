@@ -162,7 +162,7 @@ body {
   background-image: url('../img/open.png');
   background-repeat: no-repeat;
   cursor: pointer;
-  filter: invert(100%); 
+  filter: invert(100%);
 }
 
 .bars-close {
@@ -211,13 +211,12 @@ body {
   margin-left: 50px;
 }
 
-/* .view-container {
-  width: 20%;
+.view-container {
+  width: 50px;
   margin: 100px 0 0 50px;
 }
 
 .arrow {
-  width: 20%;
   font-size: 15px;
   font-family: var(--main-font);
   text-transform: uppercase;
@@ -226,15 +225,14 @@ body {
   padding: 12px;
   color: #fff;
   cursor: pointer;
-  display: none;
-} */
+/*   display: none; */
+}
 
-/* .arrow span {
+.arrow span {
   margin-left: 5px;
 }
 
 .view-more {
-  width: 70%;
   font-size: 15px;
   font-family: var(--main-font);
   text-transform: uppercase;
@@ -252,7 +250,7 @@ body {
 .view-more__link span {
   margin-left: 35px;
   font-size: 15px;
-} */
+}
 
 .container {
   display: flex;
