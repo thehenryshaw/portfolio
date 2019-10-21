@@ -101,6 +101,7 @@ body {
   display: inline-block;
   padding: 0 10px;
   margin-left: 215px;
+  font-size: 1.5rem;
   font-family: var(--main-font);
   letter-spacing: 0.1rem;
   color: #fff;
@@ -348,15 +349,25 @@ body {
   .container {
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 55px;
   }
   .work-container {
-    margin-top: 50px;
+    margin-top: 10px;
+    width: 200px;
+    height: 180px;
+  }
+  .work-container__link {
+    margin: 0;
+  }
+  .work-container__description {
+    margin: 5px 0 0;
   }
   .main-description__media {
-    margin-left: 60px;
+    margin: 0;
+    font-size: 1.2rem;
   }
   .social-contacts {
+    margin-top: 80px;
     font-size: 20px;
   }
   .round {
