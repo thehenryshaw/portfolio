@@ -77,6 +77,11 @@ body {
   background-color: #010101;
 }
 
+#fullpage {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -155,59 +160,36 @@ body {
   text-transform: uppercase;
 }
 
-.bars {
-  width: 50px;
-  height: 50px;
-  margin: 25px 10px;
-  background-image: url('../img/open.png');
-  background-repeat: no-repeat;
-  cursor: pointer;
-  filter: invert(100%);
-}
-
-.bars-close {
-  width: 50px;
-  height: 50px;
-  margin-left: 120px;
-  background-image: url('../img/close.png');
-}
-
-.bars-container__list {
-  margin-top: 120px !important;
-  margin-right: 0px !important;
-}
-
-.hide-menu {
-  display: none;
-}
-
-.bars-container__item {
-  font-size: 28px;
-  font-family: var(--main-font);
-  text-transform: uppercase;
-  line-height: 4.5rem;
-  letter-spacing: 0.2rem;
-  color: #fff;
-  text-decoration: none;
-}
-
-.bars-container__item:hover {
-  color: #f7f73d;
-  transition: all 0.5s;
-}
-
 /* ABOUT */
 .about {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url('../img/about-black.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.about-description {
+  position: absolute;
+  width: 60%;
+  margin-top: 100px;
+  margin-left: 215px;
+  padding: 10px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  letter-spacing: 0.1rem;
+  color: #fff;
+  border: 1px solid #f7f73d;
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 2px 10px 0 rgb(226, 238, 62, 0.8);
+}
+
+.hide-description {
+  display: none;
+}
+
 .social-about {
-  margin-top: 300px;
+  margin-top: 200px;
   margin-left: 50px;
 }
 
@@ -225,7 +207,6 @@ body {
   padding: 12px;
   color: #fff;
   cursor: pointer;
-/*   display: none; */
 }
 
 .arrow span {
@@ -261,7 +242,7 @@ body {
 /* WORK */
 .work {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url('../img/works-black.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -325,7 +306,7 @@ body {
 /* CONTACTS */
 .contacts {
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   background-image: url('../img/contacts-black.jpg');
   background-position: center;
   background-repeat: no-repeat;
