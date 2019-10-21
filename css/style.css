@@ -93,7 +93,7 @@ body {
 
 .main-title {
   font-family: var(--main-font);
-  font-size: 50px;
+  font-size: 4rem;
   color: #f7f73d;
 }
 
@@ -155,7 +155,7 @@ body {
 .portfolio {
   margin: 20px 0 0 25px;
   font-family: var(--main-font);
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: #ffffff;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -254,8 +254,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   border: 2px solid #f7f73d;
   box-shadow: 0 0 3px #f7f73d;
   background-color: rgba(8, 8, 8, 0.8);
@@ -334,9 +334,19 @@ body {
 }
 
 @media (max-width: 600px) {
+  .title-container {
+    margin: 50px 0 0 25px;
+  }
   .main-description {
     margin: 0 auto;
     margin-left: 20px;
+  }
+  .about-description {
+    width: 90%;
+    height: 350px;
+    margin: 10px 0px 0 0;
+    padding: 5px;
+    font-size: 0.9rem;
   }
   .social {
     margin-bottom: 80px;
