@@ -282,7 +282,7 @@ body {
 .work-container__description {
   margin-top: 10px;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   letter-spacing: 0.1rem;
   color: #fff;
@@ -290,7 +290,7 @@ body {
 
 .work-container__link {
   margin-top: 15px;
-  font-size: 16px;
+  font-size: 20px;
   font-family: 'Montserrat Alternates', sans-serif;
   letter-spacing: 0.1rem;
   color: #f7f73d;
