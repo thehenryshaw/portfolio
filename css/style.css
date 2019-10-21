@@ -334,8 +334,16 @@ body {
 }
 
 @media (max-width: 600px) {
+  .portfolio {
+    margin: -5px 0 0 25px;
+    font-size: 1.5rem;
+  }
   .title-container {
     margin: 50px 0 0 25px;
+  }
+  .main-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
   }
   .main-description {
     margin: 0 auto;
@@ -347,14 +355,14 @@ body {
     margin: 10px 0px 0 0;
     padding: 5px;
     font-size: 0.9rem;
+    background-color: #010101;
   }
   .social {
     margin-bottom: 80px;
   }
   .social-about {
     margin: 0 auto;
-    margin-top: 300px;
-    margin-bottom: 80px;
+    margin-top: 200px;
   }
   .container {
     flex-direction: column;

@@ -5,6 +5,7 @@ const arrow = document.querySelector('.arrow');
 const viewMore = document.querySelector('.view-more');
 const aboutDescription = document.querySelector('.about-description');
 const hideDescription = document.querySelector('.hide-description');
+const hideView = document.querySelector('.hide-view');
 
 const sectionAbout = document.querySelector('.about');
 const sectionWork = document.querySelector('.work');
