@@ -4,7 +4,7 @@ const viewContainer = document.querySelector('.view-container');
 const arrow = document.querySelector('.arrow');
 const viewMore = document.querySelector('.view-more');
 const aboutDescription = document.querySelector('.about-description');
-const hideDescription = document.querySelector('.hide-description');
+const showDescription = document.querySelector('.show-description');
 const hideView = document.querySelector('.hide-view');
 
 const sectionAbout = document.querySelector('.about');
@@ -24,5 +24,13 @@ viewContainer.addEventListener('mouseleave', () => {
 })
 
 viewMore.addEventListener('click', () => {
-  hideDescription.classList.toggle('hide-description');
+  showDescription.classList.toggle('show-description');
+})
+
+window.addEventListener('resize', () => {
+  if(window.innerWidth < 600) {
+    viewMore.addEventListener('click', () => {
+      hideView.style.display = 'none';
+    })
+  }
 })
